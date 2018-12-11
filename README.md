@@ -1,7 +1,7 @@
-# _Your project title_
+# _CSCI3055U Common Lisp_
 
-- _your name_
-- _your email (uoit.net)_
+- _Ammar Khan 100602925_
+- _ammar.khan@uoit.net_
 
 ## About the language
 
