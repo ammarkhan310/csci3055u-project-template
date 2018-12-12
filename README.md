@@ -51,12 +51,26 @@ x              ; the symbol x
 
 ## About the tools
 
-> _Describe the compiler or interpreter needed_.
+*Older dialects of Lisp had both an interpreter and compiler however they were often implemented with different semantics, such as lexical scoping in the compiler and dynamic scoping in the interpreter. Common Lisp by default requires both the interpreter and compiler to use lexical sorting.*
+
+*The compiler is called using the function compile-file for files, and just compile for individual functions. The file with compiled code is called a fasl file (fast load). The fasl file and any other source code can be loaded with the function load. To evaluate code, the function eval is used, which takes s-expressions.*
+
+*Unlike many other languages, Common Lisp makes a distinction between read-time, run-time, compile-time, and load-time. This allows for the user to choose during which step their code is processed. Common Lisp can be used interactively, and it has special operators specifically for interactive development such as defvar which will only give a value to a variable if it was not already bound.*
 
 ## About the standard library
 
-> _Give some examples of the functions and data structures
-> offered by the standard library_.
+*Common Lisp has a very expansive standard library of functions. Here are some exceptional ones:*
+
+-  ‘string-upcase’ takes a string and changes every lowercase character to uppercase (CL also has string-downcase)
+- ‘char-code’ takes a character and returns the ASCII character encoding 
+- ‘gcd’ returns the greatest common denominator of integers. If only one integer is given it returns its absolute value while if none are given it returns 0
+- ‘rationalize’ converts a real number into a rational number
+- ‘ash’ performs the arithmetic shift operation on the binary representative of an integer
+- ‘1+’, ‘1-‘ returns a number that is 1 higher and 1 lower than its argument value respectively
+- ‘minusp’ ‘plusp’ returns true if real is less than 0 and greater than 0 respectively, false otherwise
+- ‘class-of’ returns the class that the object is a direct instance of
+- ‘array-total-size’ returns the total size of an array including all dimensions 
+
 
 ## About open source library
 
