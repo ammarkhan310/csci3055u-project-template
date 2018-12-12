@@ -8,9 +8,7 @@
 	(* x y)
 
 (defun square (x)
-  
 	(* x x))
-
 
 (defun avg (x y)
 	(/ (+ x y) 2)
