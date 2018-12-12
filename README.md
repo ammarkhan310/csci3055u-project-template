@@ -79,7 +79,34 @@ CLSQL is an open source library that uses Common Lisp as a database interface th
 
 # Analysis of the language
 
-> _Organize your report according to the project description
-document_.
+# Style of Programming
+
+Common Lisp is a multi-paradigm programming language, which supports procedural, functional, and object oriented programming. It has the ability to facilitate incremental development due to it being a dynamic programming language. Incremental development can be done interactively with a running program without interrupting it giving CL an advantage over many other languages when it comes to server side development and other long running applications. It also supports type casting which can allow for compiling more efficient code. 
+
+# Meta-Programming
+
+Common Lisp supports meta-programming through the use of macros. Macros are used to define language syntax extensions that allow for the user to create any new syntax that they require. The flexibility is endless when it comes to macros which is a huge selling point of Lisp in general. 
+
+# Symbol Resolution, Support for Closure and Scoping Rules
+
+Since Common Lisp is based off of lambda calculus which uses free variables, it supports closure as it is necessary for first class functions.
+
+Common Lisp uses lexical scoping also known as static scope. The difference between lexical and dynamic scoping is that the name resolution depends on the location in the source code for lexical scoping, whereas it depends on the program state for dynamic scoping. For lexical scoping the visibility is restricted to the block where the binding was established.
+
+Functional programming constructs are part of the language. 
+
+# Static vs Dynamic Types
+
+The Common Lisp Object System uses dynamic types. This allows for easier implementation of multiple inheritance, multiple dispatch, metaclasses, multimethods etc. compared to static languages. 
+
+# Pros
+-  Easy to get into
+- Very efficient and powerful
+- Macros allow for unlimited flexibility
+# Cons
+- Difficult to master
+- Small ecosystem
+- Syntax is difficult to get used to
+
 
 
