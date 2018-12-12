@@ -75,7 +75,7 @@ x              ; the symbol x
 
 ## About open source library
 
-> CLSQL is an open source library that uses Common Lisp as a database interface that can access many different SQL database engines. It uses the UFFI interface so it works with many implementations of CL such as AllegroCL, Lispworks, SCL, OpenMCL, etc. It supports many database interfaces including PostreSQL, MySQL, SQLite 2, Oracle, etc. 
+CLSQL is an open source library that uses Common Lisp as a database interface that can access many different SQL database engines. It uses the UFFI interface so it works with many implementations of CL such as AllegroCL, Lispworks, SCL, OpenMCL, etc. It supports many database interfaces including PostreSQL, MySQL, SQLite 2, Oracle, etc. 
 
 # Analysis of the language
 
