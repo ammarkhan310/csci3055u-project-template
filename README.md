@@ -71,6 +71,7 @@ x              ; the symbol x
 - ‘class-of’ returns the class that the object is a direct instance of
 - ‘array-total-size’ returns the total size of an array including all dimensions 
 
+*Data structures include array, vector, hash-table, string, char, real, float, number, complex, rational, ratio, integer, bit, fixnum, bignum, etc.*
 
 ## About open source library
 
