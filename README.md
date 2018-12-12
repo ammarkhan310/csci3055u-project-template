@@ -5,8 +5,9 @@
 
 ## About the language
 
-- Common Lisp is an ANSI standardized dialect of the Lisp language. Lisp, originally designed by John McCarthy and implemented by Steve Russell in 1958 was a mathematical notation based on lambda calculus. A functional programming language, it derives its name from List Processing, as linked lists are a defining data structure of Lisp, clearly visible in its notation and source code. Common Lisp, which first appeared in 1984 but was ANSI standardized in 1994, is a successor to a dialect of Lisp known as Maclisp. 
-- Common Lisp has a reputation of being very flexible and having excellent support for object oriented programming. A well renowned feature it has is the ability to use macros which allows for the user to use the language with any application. On top of that it has a very flexible runtime environment which allows for debugging of running applications which is very useful for server development and any other long running software. 
+*Common Lisp is an ANSI standardized dialect of the Lisp language. Lisp, originally designed by John McCarthy and implemented by Steve Russell in 1958 was a mathematical notation based on lambda calculus. A functional programming language, it derives its name from List Processing, as linked lists are a defining data structure of Lisp, clearly visible in its notation and source code. Common Lisp, which first appeared in 1984 but was ANSI standardized in 1994, is a successor to a dialect of Lisp known as Maclisp.*
+
+*Common Lisp has a reputation of being very flexible and having excellent support for object oriented programming. A well renowned feature it has is the ability to use macros which allows for the user to use the language with any application. On top of that it has a very flexible runtime environment which allows for debugging of running applications which is very useful for server development and any other long running software.*
 
 ## About the syntax
 
